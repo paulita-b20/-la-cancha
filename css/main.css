@@ -1,0 +1,45 @@
+/* Inserta tu CSS aqui */
+.marco{
+    background-color:#63ca74;
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+}
+
+.pasto{
+    border: 1px;
+    width: 80px;
+    height: 500px;
+    position: relative;
+}
+.circulo{
+    border: 1px solid #fff;
+    width: 250px;
+    height: 250px;
+    margin-left: 400px;
+    margin-top: 135px;
+    border-radius: 250px;
+}
+.arcos1{
+    border: 1px solid #fff;
+    width: 150px;
+    height: 200px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -210px;
+    
+}arcos2{
+    border: 1px solid #fff;
+    width: 150px;
+    height: 200px;
+    float: right;
+    margin-top:-210px;
+}
+.bola1 {
+    margin-left: 480px;
+    margin-top: -80px;
+}
+.bola2 {
+    margin-left: 720px;
+    margin-top:200px;
+}
