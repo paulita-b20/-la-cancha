@@ -1,45 +1,55 @@
 /* Inserta tu CSS aqui */
-.marco{
+.pasto{
     background-color:#63ca74;
-    width: 800px;
-    height: 500px;
+    width: 900px;
+    height: 450px;
     padding: 30px;
 }
-
-.pasto{
-    border: 1px;
-    width: 80px;
-    height: 500px;
+.cancha{
+    width: 900px;
+    height: 450px;
     position: relative;
+    border: 2px solid #fff;
 }
-.circulo{
-    border: 1px solid #fff;
-    width: 250px;
-    height: 250px;
-    margin-left: 400px;
-    margin-top: 135px;
-    border-radius: 250px;
-}
-.arcos1{
+
+.izquierda{
     border: 1px solid #fff;
     width: 150px;
     height: 200px;
-    float: right;
+    float:inherit;
     margin-right: 0px;
-    margin-top: -210px;
-    
-}arcos2{
+    margin-top: 90px;
+}
+.centro{
+    border: 1px solid #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    position:absolute;
+    left: 350px;
+    top: 120px;
+}
+.derecha{
     border: 1px solid #fff;
     width: 150px;
     height: 200px;
     float: right;
     margin-top:-210px;
 }
-.bola1 {
-    margin-left: 480px;
-    margin-top: -80px;
+.una{
+    position: absolute;
+    left: 125px;
+    top: 100px;
 }
-.bola2 {
-    margin-left: 720px;
-    margin-top:200px;
+.dos{
+    position: absolute;
+    right: 150px;
+    top: 250px;
 }
+.tres {
+     position: absolute;
+    right: 450px;
+    bottom: 350px;
+ 
+}
+    
